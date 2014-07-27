@@ -9,3 +9,8 @@ var feed = new Instafeed({
         target: 'target'
     });
     feed.run();
+
+    loadButton.addEventListener('click', function() {
+      feed.next;
+
+    });
