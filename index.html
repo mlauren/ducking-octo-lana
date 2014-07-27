@@ -27,6 +27,7 @@
           clientId: '8f7c904f3eb8494e91e5cdb727c11a66',
           template: '<a href="{{link}}"><img src="{{image}}" /></a><span> {{caption}} </span>',
           target: 'target',
+          limit: 60,
           after: function() {
             // disable button if no more results to load
             if (!this.hasNext()) {
