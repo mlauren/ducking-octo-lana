@@ -8,8 +8,11 @@ var feed = new Instafeed({
         clientId: '8f7c904f3eb8494e91e5cdb727c11a66',
         target: 'target'
     });
-    feed.run();
 
-loadButton.addEventListener('click', function() {
-  feed.next();
+
+document.addEventListener('load', function() {
+  loadButton.addEventListener('click', function() {
+    feed.next();
+  });
 });
+feed.run();
