@@ -1,3 +1,6 @@
+
+var loadButton = document.getElementById('load-more');
+
 var feed = new Instafeed({
         get: 'user',
         userId: 24516360,
